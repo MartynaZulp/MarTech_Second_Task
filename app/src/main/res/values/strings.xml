@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">MarTech Second task</string>
+    <string name="message_not_implemented">Not Implemented!</string>
         <string-array name="Options">
-            <item>Count Chars</item>
-            <item>Count Words</item>
+            <item>Chars</item>
+            <item>Words</item>
         </string-array>
 </resources>

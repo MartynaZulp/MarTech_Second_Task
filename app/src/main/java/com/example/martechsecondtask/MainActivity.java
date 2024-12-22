@@ -51,10 +51,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnCalculate(View view) {
-        if (edUserInput != null && tvResult != null) {
-            String userInputPhrase = edUserInput.getText().toString();
-            int result = TextCounter.getCharsCount(userInputPhrase);
-            tvResult.setText(String.valueOf(result));
+        String notImplemented = getResources().getString(R.string.message_not_implemented);
+        if(spCountingOpt.getSelectedItem().toString().equals("Chars")) {
+                String userInputPhrase = edUserInput.getText().toString();
+                int result = TextCounter.getCharsCount(userInputPhrase);
+                tvResult.setText(String.valueOf(result));
+        }
+        else{
+            tvResult.setText(R.string. message_not_implemented);
         }
     }
 }
