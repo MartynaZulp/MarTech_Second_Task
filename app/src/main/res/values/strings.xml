@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">MarTech Second task</string>
         <string-array name="Options">
-            <item>Choose an option</item>
-            <item>Count Words</item>
             <item>Count Chars</item>
+            <item>Count Words</item>
         </string-array>
 </resources>
